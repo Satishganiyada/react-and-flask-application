@@ -37,6 +37,8 @@ public ip :5000/api/hello
  open security groups and acess to port 8080
 http://16.170.219.47:8080/ to host it in in the browser
 
+# After completion of setup create a Dockerfile using above commands
+
 
 # docker-Containerisation:
 build the docker image for frontend

@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-BACKEND_API = "http://13.48.67.154:5000/api/hello"
+BACKEND_API = "http://13.53.52.207:5000/api/hello"
 @app.route("/hello")
 def hello():
      return """
@@ -34,5 +34,6 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 

@@ -38,6 +38,19 @@ public ip :5000/api/hello
 http://16.170.219.47:8080/ to host it in in the browser
 
 
+# docker-Containerisation:
+build the docker image for frontend
+### docker build -t frontend .
+after building an image run it with a container
+###  docker run -d -p 80:8080 --name frontendcontainer frontend
+
+now build and run the  backend
+### docker build -t backend .
+now run the image in a container
+###  docker run -d -p 5000:5000 --name frontendcontainer frontend
+
+
+
 
 
 

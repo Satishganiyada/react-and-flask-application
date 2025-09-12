@@ -51,6 +51,13 @@ now build and run the  backend
 now run the image in a container
 ###  docker run -d -p 5000:5000 --name frontendcontainer frontend
 
+## If u need to deploy this with docker-compose
+# docker compose up -d --build
+
+### check the logs wheere the application is runnig 
+## docker logs containerid
+
+
 
 
 

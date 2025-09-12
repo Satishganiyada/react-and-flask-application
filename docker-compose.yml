@@ -1,0 +1,12 @@
+verison: 3.9
+services:
+   backend:
+      build: backend
+      ports:
+        -"5000:5000"
+   frontend:
+      build: frontend
+      ports:
+        -"5000:8000"
+   flask-app:
+      build: flask-app
